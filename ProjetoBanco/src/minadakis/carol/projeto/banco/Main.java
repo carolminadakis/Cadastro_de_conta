@@ -6,13 +6,13 @@ public class Main {
 		
 		Gerente gerente1 = new Gerente("Ana Carolina", "Gerente");
 		Atendente atendente1 = new Atendente("Mariana", "Atendente");
-		Caixa caixa1 = new Caixa("Janaína", "Caixa");
-		Seguranca seguranca1 = new Seguranca("José", "Segurança");
+		Caixa caixa1 = new Caixa("Janaï¿½na", "Caixa");
+		Seguranca seguranca1 = new Seguranca("Josï¿½", "Seguranï¿½a");
 		
 		System.out.println();
 		PessoaFisica pessoaFisica1 = new PessoaFisica("Maria Aparecida", "123.456.789-10");
 		PessoaFisica pessoaFisica2 = new PessoaFisica("Leandro", "941-023-333.00");
-		PessoaJuridica pessoaJuridica1 = new PessoaJuridica("Conexão Ltda", "78.823.834/0001-94");
+		PessoaJuridica pessoaJuridica1 = new PessoaJuridica("Conexï¿½o Ltda", "78.823.834/0001-94");
 		
 		pessoaFisica1.autenticacao("usuario_mariaapaercida", "senha_123");
 		pessoaFisica2.autenticacao("usuario_leandro", "senha_456");
