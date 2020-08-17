@@ -3,14 +3,24 @@ package minadakis.carol.projeto.banco;
 public abstract class Cliente implements Autenticador{
 	
 	private String nomeCliente;
-	private String docCliente;
+	private String usuario;
+	private String senha;
+	private Double renda;
+	
+	public String getSenha() {
+		return senha;
+	}
 
-	
-	
-	public Cliente(String nomeCliente, String docCliente) {
-		super();
-		this.nomeCliente = nomeCliente;
-		this.docCliente = docCliente;
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+
+	public Double getRenda() {
+		return renda;
+	}
+
+	public void setRenda(Double renda) {
+		this.renda = renda;
 	}
 
 	public String getNomeCliente() {
@@ -22,10 +32,21 @@ public abstract class Cliente implements Autenticador{
 	}
 	
 	public String getDocCliente() {
-		return docCliente;
+		return senha;
 	}
+	
 	public void setDocCliente(String docCliente) {
-		this.docCliente = docCliente;
+		this.senha = docCliente;
 	}
+
+	public String getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
+	}
+	
+	
 
 }
