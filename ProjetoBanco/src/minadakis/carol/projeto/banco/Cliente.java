@@ -30,14 +30,6 @@ public abstract class Cliente implements Autenticador{
 	public void setNomeCliente(String nomeCliente) {
 		this.nomeCliente = nomeCliente;
 	}
-	
-	public String getDocCliente() {
-		return senha;
-	}
-	
-	public void setDocCliente(String docCliente) {
-		this.senha = docCliente;
-	}
 
 	public String getUsuario() {
 		return usuario;

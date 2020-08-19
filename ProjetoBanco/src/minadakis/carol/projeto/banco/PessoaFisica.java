@@ -5,7 +5,7 @@ public class PessoaFisica extends Cliente {
 	private int cpf;
 	private String rg;
 
-	public PessoaFisica(int cpf, String rg) {
+	public PessoaFisica() {
 		super();
 		this.cpf = cpf;
 		this.rg = rg;

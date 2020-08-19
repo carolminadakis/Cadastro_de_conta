@@ -4,7 +4,7 @@ public class PessoaJuridica extends Cliente {
 	private int cnpj;
 	private String ie;
 	
-	public PessoaJuridica(int cnpj, String ie) {
+	public PessoaJuridica() {
 		this.cnpj = cnpj;
 		this.ie = ie;
 		super.setSenha(ie+cnpj);
@@ -15,7 +15,7 @@ public class PessoaJuridica extends Cliente {
 		if(usuario == getNomeCliente() && senha == ie+cnpj) {
 			System.out.println("Cliente Autenticado com sucesso!!");
 		}else {
-			System.out.println("Usuário e senha errado!");
+			System.out.println("Usuario e senha errado!");
 		}
 	}
 
@@ -34,6 +34,4 @@ public class PessoaJuridica extends Cliente {
 	public void setIe(String ie) {
 		this.ie = ie;
 	}
-	
-	
 }
